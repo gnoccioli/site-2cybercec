@@ -1,4 +1,5 @@
-import { MapPin, Phone, Mail, Linkedin, Facebook, Instagram } from "lucide-react";
+import { MapPin, Phone, Mail, Instagram } from "lucide-react";
+import Logo from "@/components/Logo";
 
 const Footer = () => {
   const services = [
@@ -23,21 +24,15 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold">TechSolutions</h3>
+            <Logo className="h-16 text-white" />
             <p className="text-gray-300 leading-relaxed">
-              Transformando empresas através da tecnologia. Soluções inovadoras 
+              Transformando empresas através da segurança digital. Soluções inovadoras 
               e personalizadas para a Região Metropolitana de Ribeirão Preto.
             </p>
             <div className="flex space-x-4">
-              <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer">
-                <Linkedin className="h-5 w-5" />
-              </div>
-              <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer">
-                <Facebook className="h-5 w-5" />
-              </div>
-              <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer">
+              <a href="http://instagram.com/2cybersec" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer">
                 <Instagram className="h-5 w-5" />
-              </div>
+              </a>
             </div>
           </div>
 
@@ -82,11 +77,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary" />
-                <p className="text-gray-300">(16) 3000-0000</p>
+                <p className="text-gray-300">(16) 3170-2180</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary" />
-                <p className="text-gray-300">contato@techsolutions.com.br</p>
+                <p className="text-gray-300">contato@2cybersec.com.br</p>
               </div>
             </div>
           </div>
@@ -95,7 +90,7 @@ const Footer = () => {
         <div className="border-t border-white/10 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © 2024 TechSolutions. Todos os direitos reservados.
+              © 2024 2cybersec. Todos os direitos reservados.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">

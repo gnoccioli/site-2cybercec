@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 27%;
 
-    --primary: 214 84% 56%;
+    --primary: 200 20% 40%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 215 25% 27%;
+    --secondary: 210 15% 95%;
+    --secondary-foreground: 200 20% 40%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 210 15% 95%;
+    --muted-foreground: 200 10% 50%;
 
-    --accent: 214 84% 56%;
+    --accent: 200 20% 40%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
@@ -36,15 +36,15 @@ All colors MUST be HSL.
     --input: 220 13% 91%;
     --ring: 214 84% 56%;
 
-    /* Tech gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(214 84% 56%), hsl(243 75% 59%));
-    --gradient-secondary: linear-gradient(135deg, hsl(220 14% 96%), hsl(210 20% 98%));
-    --gradient-dark: linear-gradient(135deg, hsl(215 25% 27%), hsl(215 19% 35%));
+    /* Cybersecurity gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(200 20% 40%), hsl(220 25% 35%));
+    --gradient-secondary: linear-gradient(135deg, hsl(210 15% 95%), hsl(200 20% 98%));
+    --gradient-dark: linear-gradient(135deg, hsl(220 25% 20%), hsl(210 20% 25%));
     
     /* Shadows */
-    --shadow-soft: 0 4px 6px -1px hsl(214 84% 56% / 0.1);
-    --shadow-medium: 0 10px 15px -3px hsl(214 84% 56% / 0.1);
-    --shadow-large: 0 25px 50px -12px hsl(214 84% 56% / 0.25);
+    --shadow-soft: 0 4px 6px -1px hsl(200 20% 40% / 0.1);
+    --shadow-medium: 0 10px 15px -3px hsl(200 20% 40% / 0.1);
+    --shadow-large: 0 25px 50px -12px hsl(200 20% 40% / 0.25);
 
     --radius: 0.5rem;
 

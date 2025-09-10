@@ -14,17 +14,17 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Telefone",
-      details: ["(16) 3000-0000", "(16) 99999-9999"],
+      details: ["(16) 3170-2180"],
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["contato@techsolutions.com.br", "suporte@techsolutions.com.br"],
+      details: ["contato@2cybersec.com.br"],
     },
     {
       icon: Clock,
       title: "Horário",
-      details: ["Segunda à Sexta: 8h às 18h", "Suporte 24/7 disponível"],
+      details: ["Segunda à Sexta: 8h às 18h"],
     },
   ];
 

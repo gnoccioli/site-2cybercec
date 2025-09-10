@@ -10,14 +10,14 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                Transformação Digital{" "}
+                Segurança Digital{" "}
                 <span className="bg-gradient-primary bg-clip-text text-transparent">
                   Inteligente
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                Soluções completas em TI para impulsionar seu negócio na era digital. 
-                Consultoria especializada, segurança robusta e automação eficiente para 
+                Soluções completas em segurança da informação para proteger seu negócio na era digital. 
+                Consultoria especializada, proteção robusta e automação segura para 
                 empresas da Região Metropolitana de Ribeirão Preto.
               </p>
             </div>
@@ -43,8 +43,8 @@ const Hero = () => {
                 <div className="text-sm text-muted-foreground">Projetos Entregues</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-primary">24/7</div>
-                <div className="text-sm text-muted-foreground">Suporte Técnico</div>
+                <div className="text-2xl md:text-3xl font-bold text-primary">100%</div>
+                <div className="text-sm text-muted-foreground">Segurança Garantida</div>
               </div>
             </div>
           </div>
