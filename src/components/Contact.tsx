@@ -41,20 +41,20 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           {/* Contact Info */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
             {contactInfo.map((info, index) => (
               <Card key={index} className="border-border/50 hover:shadow-soft transition-shadow">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                      <info.icon className="h-6 w-6 text-white" />
+                <CardContent className="p-8">
+                  <div className="flex flex-col items-center text-center space-y-4">
+                    <div className="w-14 h-14 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                      <info.icon className="h-7 w-7 text-white" />
                     </div>
-                    <div className="space-y-1">
+                    <div className="space-y-2">
                       <h3 className="text-lg font-semibold">{info.title}</h3>
                       {info.details.map((detail, detailIndex) => (
-                        <p key={detailIndex} className="text-muted-foreground">
+                        <p key={detailIndex} className="text-muted-foreground text-sm leading-relaxed">
                           {detail}
                         </p>
                       ))}
