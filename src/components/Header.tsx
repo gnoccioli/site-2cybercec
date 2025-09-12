@@ -32,9 +32,6 @@ const Header = () => {
                 {item.name}
               </a>
             ))}
-            <Button variant="default" size="sm">
-              Fale Conosco
-            </Button>
           </nav>
 
           {/* Mobile menu button */}
@@ -63,9 +60,6 @@ const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="default" size="sm" className="w-fit">
-                Fale Conosco
-              </Button>
             </nav>
           </div>
         )}

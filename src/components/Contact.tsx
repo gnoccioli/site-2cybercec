@@ -41,56 +41,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <Card className="border-border/50">
-            <CardHeader>
-              <CardTitle className="text-2xl">Solicite um Orçamento</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <label className="text-sm font-medium">Nome</label>
-                  <Input placeholder="Seu nome completo" />
-                </div>
-                <div className="space-y-2">
-                  <label className="text-sm font-medium">Empresa</label>
-                  <Input placeholder="Nome da empresa" />
-                </div>
-              </div>
-              
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <label className="text-sm font-medium">Email</label>
-                  <Input type="email" placeholder="seu@email.com" />
-                </div>
-                <div className="space-y-2">
-                  <label className="text-sm font-medium">Telefone</label>
-                  <Input placeholder="(16) 99999-9999" />
-                </div>
-              </div>
-
-              <div className="space-y-2">
-                <label className="text-sm font-medium">Serviço de Interesse</label>
-                <Input placeholder="Ex: Consultoria em TI, Segurança Digital..." />
-              </div>
-
-              <div className="space-y-2">
-                <label className="text-sm font-medium">Mensagem</label>
-                <Textarea 
-                  placeholder="Descreva seu projeto ou necessidade..."
-                  className="min-h-[120px]"
-                />
-              </div>
-
-              <Button size="lg" className="w-full shadow-medium">
-                Enviar Mensagem
-              </Button>
-            </CardContent>
-          </Card>
-
+        <div className="max-w-4xl mx-auto">
           {/* Contact Info */}
-          <div className="space-y-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {contactInfo.map((info, index) => (
               <Card key={index} className="border-border/50 hover:shadow-soft transition-shadow">
                 <CardContent className="p-6">
@@ -111,18 +64,6 @@ const Contact = () => {
               </Card>
             ))}
 
-            <Card className="border-primary/20 bg-gradient-secondary">
-              <CardContent className="p-6 text-center space-y-4">
-                <h3 className="text-xl font-semibold">Atendimento Especializado</h3>
-                <p className="text-muted-foreground">
-                  Nossa equipe está pronta para entender suas necessidades e 
-                  propor a melhor solução em tecnologia para sua empresa.
-                </p>
-                <Button variant="outline" size="lg">
-                  Agendar Reunião
-                </Button>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>

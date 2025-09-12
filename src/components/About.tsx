@@ -38,7 +38,7 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold">
                 Sobre a{" "}
                 <span className="bg-gradient-primary bg-clip-text text-transparent">
-                  TechSolutions
+                  2CyberSec
                 </span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">

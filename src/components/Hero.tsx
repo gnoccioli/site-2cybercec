@@ -27,10 +27,6 @@ const Hero = () => {
                 Conheça Nossos Serviços
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button variant="outline" size="lg">
-                <Play className="mr-2 h-5 w-5" />
-                Agendar Consulta
-              </Button>
             </div>
 
             <div className="grid grid-cols-3 gap-8 pt-8 border-t">
