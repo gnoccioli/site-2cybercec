@@ -22,7 +22,6 @@ const About = () => {
 
   const achievements = [
     "Mais de 15 anos de experiência no mercado",
-    "200+ projetos desenvolvidos com sucesso",
     "Clientes em toda região metropolitana de Ribeirão Preto",
     "Parceiros certificados das principais tecnologias do mercado",
     "Equipe especializada em diferentes áreas da TI",
