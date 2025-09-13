@@ -9,7 +9,7 @@ services:
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.site-2cybersec.rule=Host(`seu-dominio.com`) || Host(`www.seu-dominio.com`)"
+      - "traefik.http.routers.site-2cybersec.rule=Host(`2cybersec.com.br`) || Host(`www.2cybersec.com.br`)"
       - "traefik.http.routers.site-2cybersec.entrypoints=web,websecure"
       - "traefik.http.routers.site-2cybersec.tls.certresolver=myresolver"
       - "traefik.http.services.site-2cybersec.loadbalancer.server.port=80"
