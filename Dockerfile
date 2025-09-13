@@ -24,11 +24,15 @@ RUN npm run build
 # Production stage
 FROM nginx:alpine
 
+# Copiar configuração customizada do nginx
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 # Copiar arquivos buildados para o nginx
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Copiar configuração customizada do nginx (se necessário)
-# COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Corrigir permissões
+RUN chown -R nginx:nginx /usr/share/nginx/html && \
+    chmod -R 755 /usr/share/nginx/html
 
 EXPOSE 80
 
