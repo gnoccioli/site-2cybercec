@@ -20,5 +20,5 @@ services:
 networks:
   web:
     driver: bridge
-  dokploy_traefik:
+  dokploy-network:
     external: true
